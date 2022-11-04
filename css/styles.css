@@ -1,3 +1,16 @@
+:root{
+  --clr-sunrise: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+  --clr-frost:linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+  --clr-lime: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+
+  --clr-accent:#c30052;
+  --clr-dark: #333;
+  --clr-light: #fff;
+  --clr-light-grey:#767676;
+
+}
+
+
 html {
   font-size: 62.5%;
 }
@@ -5,6 +18,7 @@ html {
 body {
   font-family: ' Inter ', sans-serif;
   line-height: 1.6;
+ 
 }
 
 h1,
@@ -24,12 +38,22 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   min-width: 25rem;
+  
+}
+
+.card--padding-8{
+  padding: 8px;
+}
+
+.card--padding-12{
+  padding: 12px;
 }
 
 .card-horizontal {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: 0 12px;
 }
 
 .box {
@@ -37,6 +61,8 @@ p {
   min-height: 20rem;
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
+  
+  
 }
 
 hr {
@@ -67,4 +93,58 @@ button {
     flex-direction: column;
     max-width: 90vw;
   }
+}
+
+
+h1{
+  font-size: 30px;
+  color: var(--clr-accent);
+}
+
+h2{
+  font-size: 25px;
+  color:var(--clr-dark);
+}
+
+h3{
+  font-size: 15px;
+  color: var(--clr-light);
+}
+
+p{
+  font-size: 13px;
+  color:var(--clr-light);
+}
+
+.card__bg-sunrise, .button--bg-sunrise{
+  background: var(--clr-sunrise);
+}
+
+.card__bg-frost, .button--bg-frost{
+  background:var(--clr-frost);
+}
+.card__bg-lime, .button--bg-lime{
+  background: var(--clr-lime);
+}
+
+.button--scale{
+  margin: 0 auto;
+  width: 12vh;
+  padding: 1.2vh 0;
+  
+}
+
+.button--white{
+  color: white;
+  font-weight: bold;
+}
+
+.card__title{
+  text-align: center;
+}
+
+
+.card-horizontal__description{
+  padding-bottom: 10px;
+  width: 90%;
 }
