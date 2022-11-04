@@ -116,25 +116,25 @@ p{
   color:var(--clr-light);
 }
 
-.card__bg-sunrise, .button--bg-sunrise{
+.card__bg-sunrise, .card__button--bg-sunrise{
   background: var(--clr-sunrise);
 }
 
-.card__bg-frost, .button--bg-frost{
+.card__bg-frost, .card__button--bg-frost{
   background:var(--clr-frost);
 }
-.card__bg-lime, .button--bg-lime{
+.card__bg-lime, .card__button--bg-lime{
   background: var(--clr-lime);
 }
 
-.button--scale{
+.card__button--scale{
   margin: 0 auto;
   width: 11vh;
   padding: 1.2vh 0;
   
 }
 
-.button--white{
+.card__button--white{
   color: white;
   font-weight: bold;
 }
