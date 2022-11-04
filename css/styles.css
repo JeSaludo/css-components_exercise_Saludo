@@ -127,7 +127,7 @@ p{
   background: var(--clr-lime);
 }
 
-.card__button--scale{
+.card__button{
   margin: 0 auto;
   width: 11vh;
   padding: 1.2vh 0;
